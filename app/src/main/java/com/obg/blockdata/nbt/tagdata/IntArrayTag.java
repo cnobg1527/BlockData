@@ -1,6 +1,7 @@
 package com.obg.blockdata.nbt.tagdata;
 
-import com.obg.blockdata.nbt.convert.NbtConstants;
+
+import com.obg.blockdata.nbt.convert.NbtType;
 
 public class IntArrayTag extends Tag<int[]> {
 
@@ -11,8 +12,8 @@ public class IntArrayTag extends Tag<int[]> {
     }
 
     @Override
-    public NbtConstants.NbtType getType() {
-        return NbtConstants.NbtType.INT_ARRAY;
+    public NbtType getType() {
+        return NbtType.INT_ARRAY;
     }
 
     @Override

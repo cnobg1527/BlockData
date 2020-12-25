@@ -1,6 +1,7 @@
 package com.obg.blockdata.nbt.tagdata;
 
-import com.obg.blockdata.nbt.convert.NbtConstants;
+
+import com.obg.blockdata.nbt.convert.NbtType;
 
 public class ShortArrayTag extends Tag<Short[]> {
 
@@ -11,8 +12,8 @@ public class ShortArrayTag extends Tag<Short[]> {
     }
 
     @Override
-    public NbtConstants.NbtType getType() {
-        return NbtConstants.NbtType.SHORT_ARRAY;
+    public NbtType getType() {
+        return NbtType.SHORT_ARRAY;
     }
 
     @Override

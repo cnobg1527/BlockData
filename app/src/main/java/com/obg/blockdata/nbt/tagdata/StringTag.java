@@ -1,6 +1,7 @@
 package com.obg.blockdata.nbt.tagdata;
 
-import com.obg.blockdata.nbt.convert.NbtConstants;
+
+import com.obg.blockdata.nbt.convert.NbtType;
 
 public class StringTag extends Tag<String> {
 
@@ -11,8 +12,8 @@ public class StringTag extends Tag<String> {
     }
 
     @Override
-    public NbtConstants.NbtType getType() {
-        return NbtConstants.NbtType.STRING;
+    public NbtType getType() {
+        return NbtType.STRING;
     }
 
     @Override

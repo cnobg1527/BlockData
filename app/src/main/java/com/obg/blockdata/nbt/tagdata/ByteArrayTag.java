@@ -1,6 +1,6 @@
 package com.obg.blockdata.nbt.tagdata;
 
-import com.obg.blockdata.nbt.convert.NbtConstants;
+import com.obg.blockdata.nbt.convert.NbtType;
 
 public class ByteArrayTag extends Tag<Byte[]> {
 
@@ -11,8 +11,8 @@ public class ByteArrayTag extends Tag<Byte[]> {
     }
 
     @Override
-    public NbtConstants.NbtType getType() {
-        return NbtConstants.NbtType.BYTE_ARRAY;
+    public NbtType getType() {
+        return NbtType.BYTE_ARRAY;
     }
 
     @Override
