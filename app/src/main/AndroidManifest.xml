@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.BlockData">
-        <activity android:name=".MainActivity">
+        <activity android:name=".BlockDataActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
